@@ -1,42 +1,65 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="GestionHotel._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    
+    
+    <div style="width : 1600px; margin: 0 auto; border : 1px solid red; display:flex; justify-content: space-around">
+        <div class="jumbotron" style="width:450px; display:flex; flex-direction :column; align-content : stretch">
+            <div class="navbar navbar-inverse" style="width:100%; margin-bottom:10px; border: 1px solid blue">
+                <h2>Sheraton</h2>
+            </div>
+            <div style="width:100%;margin-bottom:10px; border: 1px solid blue">
+                <img src="images/image1.jpg" alt="sheraton" width="320" height="250"/>
+            </div>
+            <div style="width:100%; border: 1px solid blue">
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+            </div>                     
+        </div>
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <div class="jumbotron" style="width:450px; display:flex; flex-direction :column; align-content : stretch">
+            <div style="width:100%; margin-bottom:10px; border: 1px solid blue">
+                <h2>Sheraton</h2>
+            </div>
+            <div style="width:100%;margin-bottom:10px; border: 1px solid blue">
+                <img src="images/image1.jpg" alt="sheraton" width="320" height="250"/>
+            </div>
+            <div style="width:100%; border: 1px solid blue">
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+            </div>                     
+        </div>
+
+        <div class="jumbotron" style="width:450px; display:flex; flex-direction :column; align-content : stretch">
+            <div style="width:100%; margin-bottom:10px; border: 1px solid blue">
+                <h2>Sheraton</h2>
+            </div>
+            <div style="width:100%;margin-bottom:10px; border: 1px solid blue">
+                <img src="images/image1.jpg" alt="sheraton" width="320" height="250"/>
+            </div>
+            <div style="width:100%; border: 1px solid blue">
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+                <p>description de l'hotel</p>
+            </div>                     
+        </div>
+                
     </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
+   
 
 </asp:Content>

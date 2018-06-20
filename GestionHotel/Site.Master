@@ -15,7 +15,17 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <style>
+        .ulblock{
+           
+        }
+        .ulblock li{
+            
+        }
+        .ulblock li:hover{
+            background-color:darkslateblue           
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -48,13 +58,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Nom de l'application</a>
+                    <a class="navbar-brand" runat="server" href="~/"><span aria-hidden="true" class="glyphicon glyphicon-header"></span>OTEL+</a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Accueil</a></li>
-                        <li><a runat="server" href="~/About">À propos de</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+                    <ul class="nav navbar-nav ulblock" style="align-content:center; display:inline-block; font-size:20px; margin: 0 auto">
+                        <li><a runat="server" href="~/Default"><span aria-hidden="true" class="glyphicon glyphicon-th-large"></span> Accueil</a></li>
+                        <li><a runat="server" href="~/AddHotel"><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span> Add Hotel</a></li>
+                        <li><a runat="server" href="~/Contact"><span aria-hidden="true" class="glyphicon glyphicon-send"></span> Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,7 +74,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Mon ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - HOTEL<sub>plus</sub></p>
             </footer>
         </div>
 
